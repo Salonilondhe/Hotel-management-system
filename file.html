@@ -1,0 +1,234 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ <title>List of Books</title> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font
+awesome/6.1.1/css/all.min.css" integrity="sha512
+KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjo
+ XtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="./bootstrap/css/styles.css" rel="stylesheet"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" 
+integrity="sha512
+6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2
+ OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no
+referrer"></script> 
+    <!-- Placed at the end of the document so the pages load faster --> 
+    <script type="text/javascript" src="./bootstrap/js/jquery-3.6.0.min.js"></script> 
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.bundle.min.js"></script> 
+  </head> 
+  <body> 
+    <div class="clear-fix pt-5 pb-3"></div> 
+<nav class="navbar navbar-expand-lg  navbar-expand-md navbar-light bg-warning bg
+gradient fixed-top"> 
+      <div class="container"> 
+        <div class="navbar-header"> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs
+target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle 
+navigation"> 
+          <span class="navbar-toggler-icon"></span> 
+        </button> 
+          <a class="navbar-brand" href="index.php">Simple Online Book Store</a> 
+24 
+ 
+        </div> 
+        <!--/.navbar-collapse --> 
+        <div class="collapse navbar-collapse" id="topNav"> 
+          <ul class="nav navbar-nav"> 
+                          <!-- link to publiser_list.php --> 
+              <li class="nav-item"><a class="nav-link" href="publisher_list.php"><span class="fa 
+fa-paperclip"></span> Publisher</a></li> 
+              <!-- link to books.php --> 
+              <li class="nav-item"><a class="nav-link" href="books.php"><span class="fa fa
+book"></span> Books</a></li> 
+              <!-- link to shopping cart --> 
+              <li class="nav-item"><a class="nav-link" href="cart.php"><span class="fa fa
+shopping-cart"></span> My Cart</a></li> 
+                        </ul> 
+        </div> 
+      </div> 
+    </nav> 
+     <div class="container" id="main">  <p class="lead text-center text-muted">List of All 
+Books</p> 
+          <div class="row"> 
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-2 mb-2"> 
+        <a href="book.php?bookisbn=64568" class="card rounded-0 shadow book
+item text-reset text-decoration-none"> 
+            <div class="img-holder overflow-hidden"> 
+              <img class="img-top" src="./bootstrap/img/dark-bg.jpg"> 
+            </div> 
+            <div class="card-body"> 
+              <div class="card-title fw-bolder h5 text-center">Sample 102</div> 
+            </div> 
+          </a> 
+       </div> 
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-2 mb-2"> 
+        <a href="book.php?bookisbn=978-0-321-94786-4" class="card rounded-0 
+shadow book-item text-reset text-decoration-none"> 
+
+ 
+            <div class="img-holder overflow-hidden"> 
+              <img class="img-top" src="./bootstrap/img/mobile_app.jpg"> 
+            </div> 
+            <div class="card-body"> 
+              <div class="card-title fw-bolder h5 text-center">Learning Mobile App 
+Development</div> 
+            </div> 
+          </a> 
+       </div> 
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-2 mb-2"> 
+        <a href="book.php?bookisbn=978-0-7303-1484-4" class="card rounded-0 
+shadow book-item text-reset text-decoration-none"> 
+            <div class="img-holder overflow-hidden"> 
+              <img class="img-top" src="./bootstrap/img/doing_good.jpg"> 
+            </div> 
+            <div class="card-body"> 
+              <div class="card-title fw-bolder h5 text-center">Doing Good By Doing Good</div> 
+            </div> 
+          </a> 
+       </div> 
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-2 mb-2"> 
+        <a href="book.php?bookisbn=978-1-118-94924-5" class="card rounded-0 
+shadow book-item text-reset text-decoration-none"> 
+            <div class="img-holder overflow-hidden"> 
+              <img class="img-top" src="./bootstrap/img/logic_program.jpg"> 
+            </div> 
+            <div class="card-body"> 
+              <div class="card-title fw-bolder h5 text-center">Programmable Logic 
+Controllers</div> 
+            </div> 
+          </a> 
+       </div> 
+          
+
+ 
+      </div> 
+      <div class="row"> 
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-2 mb-2"> 
+        <a href="book.php?bookisbn=978-1-1180-2669-4" class="card rounded-0 
+shadow book-item text-reset text-decoration-none"> 
+            <div class="img-holder overflow-hidden"> 
+              <img class="img-top" src="./bootstrap/img/pro_js.jpg"> 
+            </div> 
+            <div class="card-body"> 
+              <div class="card-title fw-bolder h5 text-center">Professional JavaScript for Web 
+Developers, 3rd Edition</div> 
+            </div> 
+          </a> 
+       </div> 
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-2 mb-2"> 
+        <a href="book.php?bookisbn=978-1-44937-019-0" class="card rounded-0 
+shadow book-item text-reset text-decoration-none"> 
+            <div class="img-holder overflow-hidden"> 
+              <img class="img-top" src="./bootstrap/img/web_app_dev.jpg"> 
+            </div> 
+            <div class="card-body"> 
+              <div class="card-title fw-bolder h5 text-center">Learning Web App 
+Development</div> 
+            </div> 
+          </a> 
+       </div> 
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-2 mb-2"> 
+        <a href="book.php?bookisbn=978-1-44937-075-6" class="card rounded-0 
+shadow book-item text-reset text-decoration-none"> 
+            <div class="img-holder overflow-hidden"> 
+              <img class="img-top" src="./bootstrap/img/beauty_js.jpg"> 
+            </div> 
+            <div class="card-body"> 
+              <div class="card-title fw-bolder h5 text-center">Beautiful JavaScript</div> 
+
+ 
+            </div> 
+          </a> 
+       </div> 
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-2 mb-2"> 
+        <a href="book.php?bookisbn=978-1-4571-0402-2" class="card rounded-0 
+shadow book-item text-reset text-decoration-none"> 
+            <div class="img-holder overflow-hidden"> 
+              <img class="img-top" src="./bootstrap/img/pro_asp4.jpg"> 
+            </div> 
+            <div class="card-body"> 
+              <div class="card-title fw-bolder h5 text-center">Professional ASP.NET 4 in C# and 
+VB</div> 
+            </div> 
+          </a> 
+       </div> 
+          
+      </div> 
+      <div class="row"> 
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-2 mb-2"> 
+        <a href="book.php?bookisbn=978-1-484216-40-8" class="card rounded-0 
+shadow book-item text-reset text-decoration-none"> 
+            <div class="img-holder overflow-hidden"> 
+              <img class="img-top" src="./bootstrap/img/android_studio.jpg"> 
+            </div> 
+            <div class="card-body"> 
+              <div class="card-title fw-bolder h5 text-center">Android Studio New Media 
+Fundamentals</div> 
+            </div> 
+          </a> 
+       </div> 
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-2 mb-2"> 
+        <a href="book.php?bookisbn=978-1-484217-26-9" class="card rounded-0 
+shadow book-item text-reset text-decoration-none"> 
+            <div class="img-holder overflow-hidden"> 
+
+ 
+              <img class="img-top" src="./bootstrap/img/c_14_quick.jpg"> 
+            </div> 
+            <div class="card-body"> 
+              <div class="card-title fw-bolder h5 text-center">C++ 14 Quick Syntax Reference, 2nd 
+Edition</div> 
+            </div> 
+          </a> 
+       </div> 
+          
+      </div> 
+      <div class="row"> 
+          
+      </div> 
+      <div class="row"> 
+          
+      </div> 
+      <div class="row"> 
+          
+      </div> 
+      <div class="row"> 
+          
+      </div> 
+      <div class="row"> 
+          
+      </div> 
+      <div class="row"> 
+          
+      </div> 
+      <div class="row"> 
+          
+      </div> 
+       <hr> 
+
+ 
+ 
+       <footer class="fixed-bottom bg-light bg-gradient border py-3 px-2"> 
+   <div class="container"> 
+    <div class="d-flex justify-content-between"> 
+     <div class=""> 
+      <a href="https://sourcecodester.com" 
+target="_blank" class="text-decoration-none text-muted fw-bold"> Simple Online Book 
+Stores Site &copy; 2023 </a> 
+     </div> 
+     <div class=""> 
+      <a href="admin.php" class="text-decoration
+none text-dark fw-bolder">Login as Admin</a> 
+     </div> 
+    </div> 
+   </div> 
+       </footer> 
+  <div class="clear-fix py-4"></div> 
+    </div> <!-- /container --> 
+ 
+  </body> 
+</html>
